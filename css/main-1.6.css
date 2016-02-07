@@ -241,97 +241,6 @@ nav ul li a::-moz-focus-inner {border:0;}
     width: 80%;
 }
 
-/* ==========================================================================
-   Brad's custom styles
-   ========================================================================== */
-* { margin: 0; padding: 0; }
-html {
-
-}
-
-body {
-    font-family: "futura_ltbook", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    color: #fff;
-    text-align: center;
-
-}
-
-#bg-image {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
-}
-#bg-image img {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
-}
-
-#bg-container {
-
-}
-
-section {
-    text-align: left;
-    padding: 25px;
-    background-color: black;
-    height: 100%;
-    margin-top: 200px;
-    color: white;
-
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
-    /* RGBa with 0.7 opacity */
-    background: rgba(0, 0, 0, 0.7);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
-}
-
-section h1 {
-
-    font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 2.6em;
-
-}
-section h2 {
-    font-size: 1.1em;
-    line-height: 120%;
-    padding: 0 0px;
-}
-
-.column {
-    float: none;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-.column p {
-    font-size: 1em;
-    line-height: 145%;
-    padding: 0;
-}
-
-.column.center {
-        text-align: center;
-        clear: both;
-        float: none;
-        width: 100%;
-}
 
 
 /* ==========================================================================
@@ -877,5 +786,107 @@ a.email {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+}
+
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+* { margin: 0; padding: 0; }
+html {
+
+}
+
+body {
+    font-family: "futura_ltbook", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+    text-align: center;
+
+}
+
+#bg-image {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+}
+#bg-image img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+
+#bg-container {
+
+}
+
+section {
+    text-align: left;
+    padding: 25px;
+    background-color: black;
+    height: 100%;
+    margin-top: 200px;
+    color: white;
+
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.7 opacity */
+    background: rgba(0, 0, 0, 0.7);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
+}
+
+section h1 {
+
+    font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+section h2 {
+    line-height: 120%;
+}
+
+a.button {
+    font-family:"futura_ltbook",Arial,sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    white-space: nowrap;
+    outline: none;
+
+}
+a.button:hover {
+    color: #fff;
+    background: #b1bf92;
+    text-decoration: none;
+    outline: none;
+}
+
+a.button.selected {
+    color: #fff;
+    background: #b1bf92;
+    text-decoration: none;
+    outline: none;
 }
 
