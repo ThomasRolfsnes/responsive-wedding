@@ -457,7 +457,7 @@ nav ul li a::-moz-focus-inner {border:0;}
 
     nav a {
         padding: 15px 3%;
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .wrapper {
@@ -890,25 +890,9 @@ a.button.selected {
     outline: none;
 }
 
-blockquote {
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-        content: open-quote;
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.4em;
-}
-blockquote:after {
-        content: close-quote;
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.6em;
-}
-blockquote p {
-        display: inline;
+
+#rsvp-nav a {
+                margin: 2px;
+            border: 2px solid white;
+
 }
